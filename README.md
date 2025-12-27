@@ -16,17 +16,17 @@ StarConnect, adalah penyedia layanan produk dan jasa digital yang didirikan tahu
 
 ## Tujuan:
 1. Memahami alasan pelanggan Churn
-  * Tipe pelanggan yang akan churn.
-  *	Manakah diantara serives, contract, atau perilaku yang berhubungan dengan churn.
-  *	Apakah harga atau tenure memiliki peran?
+     * Tipe pelanggan yang akan churn.
+     * Manakah diantara serives, contract, atau perilaku yang berhubungan dengan churn.
+     * Apakah harga atau tenure memiliki peran?
 2. Siapa yang paling terancam?
-  *	Identifikasi pelanggan dengan memiliki resiko tinggi untuk churn.
-  * Segmentasi Pelanggan (tenure pendek, tagihan tinggi, dll)
-  *	Pelanggan mana yang kita prioritaskan untuk meningkatkan retensi
+      * Identifikasi pelanggan dengan memiliki resiko tinggi untuk churn.
+      * Segmentasi Pelanggan (tenure pendek, tagihan tinggi, dll)
+      * Pelanggan mana yang kita prioritaskan untuk meningkatkan retensi
 3. Prediksi Pelanggan Churn
-  *	Buat model ML
-  *	Penjelasan model terbaik
-  *	Features yang mempengaruhi churn paling tinggi
+      * Buat model ML
+      * Penjelasan model terbaik
+      * Features yang mempengaruhi churn paling tinggi
     
 ## Ringkasan Eksekutif
 Tim data engineering StarConnect, menyediakan data yang menunjukkan riwayat churn dari pelanggan selama 6 bulan terakhir, sekaligus keterangan mengenai alasan mengapa mereka churn. Dari 6418 pelanggan, terdapat 27% persen churn rate. Layanan Internet_Service mengalami penurunan jumlah pelanggan tertinggi dengan churn rate 93% . Pelanggan dengan usia >65 tahun memiliki churn rate yang tinggi, walaupun 38% dari tenure mereka >24 bulan .Wilayah paling kritis ada pada Jammu & Kashmir dengan churn rate 57%. 
