@@ -33,8 +33,8 @@ Tim data engineering StarConnect, menyediakan data yang menunjukkan riwayat chur
 
 StarConnect dapat melakukan improve pada bagian memperbaiki Contact Person untuk mendapat kepercayaan pelanggan usia 50 keatas, dan melakukan promosi serta meningkatkan kualitas alat terutama pada Fiber Optic dan Kabel untuk mempertahankan pelanggan yang berpotensi menjadi pelanggan setia, yakni umur 20-65 dengan retensi 12-18 bulan.
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-25%20175925.png" width=900 height=800>
 </p>
 
 
@@ -50,36 +50,33 @@ StarConnect dapat melakukan improve pada bagian memperbaiki Contact Person untuk
   * Pelanggan dengan **Service Fiber Optic memiliki 41% churn rate**, Kontrak tipe month-to-month memiliki tingkat churn tertinggi sebanyak 46% disusul 	dengan kabel dengan 25% churn rate.
   * Terdapat **perbedaan signifikan pada korelasi antara service dan kategori churn yang lain**, yakni ada **527 pelanggan** servie Fiber Optic yang churn, angka ini signifikan karena korelasi antara service dan kategori churn yang lain tidak menyentuh angka **200**.
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20101342.png" width=600 height=500>
 </p>
     
   *	Kontrak month-to-month memang memiliki nilai churn paling tinggi, namun bukan berarti ini merupakan penyebab pelanggan melakukan churn, karena month-to-month memang lebih **fleksibel dan disukai pelanggan**. Yang menjadi kekhawatiran adalah rendahnya insentif pelanggan dengan tenure lebih dari 12 bulan untuk switching cost kedalam kontrak 1 atau 2 tahun. Pelanggan dengan **tenure panjang tetap berisiko churn** karena **tidak ada komitmen formal dan insentif** yang cukup untuk mempertahankan mereka.
 
-<p>
-  <img src=>
-</p>
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20171217.png" width=700 height=1100>
 </p>
 
 **3. Apakah harga maupun tenure memiliki peran?**
   *	**Hanya 72 pelanggan** yang berpikir Harga yang ditawarkan terlalu mahal, alasan yang paling sering muncul justru datang dari **Kompetitor yang memiliki  devices dan penawaran yang lebih bagus**. Jadi sebenarnya Harga yang ditawarkan termasuk sesuai dengan Harga pasar, namun dari segi penawaran dan devices dari perusahaan bisa ditinjau lebih lanjut.
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20103345.png" width=700 height=600>
 </p>
 
   *	Walaupun **Harga bukan menjadi alasan Utama**, namun jika melihat dari jumlah pelanggan dengan biaya **tagihan lebih dari 100/bulan**, mereka mendominasi churn rate. **Ini merupakan hal yang buruk** karena dari total 6400 pelanggan, 6000 pelanggan berasal dari tagihan lebih dari 100/bulan, dengan total churn mereka 1600 orang, hal ini **akan sangat membebani perusahaan karena hanya terdapat 383 pelanggan baru dari kategori tagihan ini.**
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20163739.png" width=600 height=500>
 </p>
 
   *	**Pelanggan paling setia**, yang berlangganan **lebih dari 24 bulan** justru memiliki **churn rate paling tinggi, yakni sebesar 27.5%**. Yang disusul oleh pelanggan dengan tenure 18-24 bulan sebesar 27.2% . Hal ini biasanya terjadi ketika **terdapat penawaran yang lebih menarik bagi pelanggan**, sehingga mereka bisa meninggalkan produk yang mereka konsumsi walaupun dalam  waktu yang lama.
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20095738.png" width=600 height=500>
 </p>
 
   *	Dan juga terdapat **200 keluhan mengenai attitude dari pihak customer support**, hal ini bisa dijadikan **priorits dalam segi improvement**, karena bisa dilakukan tanpa mengeluarkan dana.
@@ -90,8 +87,8 @@ StarConnect dapat melakukan improve pada bagian memperbaiki Contact Person untuk
 **1. Profil pelanggan yang beresiko tinggi (grup usia dan geografis)**
   *	Pelanggan dengan **usia grup diatas 65 tahun sangat berpotensi untuk churn**, perlu diaris bawahi lebih dari 39% dari mereka menggunakan service Kabel, dan memiliki 6-12 bulan masa berlangganan. **Namun hal ini sebenarnya cukup masuk akal**, mengingat usia mereka tidak lagi produktif. **Justru pelanggan churn di usia 35-50** yang termasuk usia produktif yang menjadi **ancaman terhadap perusahaan, 27%** dari mereka yang tenure **selama 18-24 bulan melakukan churn.**
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20100446.png" width=700 height=500>
 </p>
 
   *	Menariknya **di hampir semua wilayah**, metode Kontrak **month-to-month selalu mendominasi jumlah pelanggan yang churn**, misal di wilayah **Jammu & Kashmir, terdapat 77%** pelanggan dari wilayah tersebut yang menggunakan Kontrak month-to-month merupakan **pelanggan yang churn**, disusul dengan Kontrak One Year sebesar 25%.
@@ -110,15 +107,15 @@ StarConnect dapat melakukan improve pada bagian memperbaiki Contact Person untuk
   *	Saya telah mengevaluasi model ML yang cocok dengan Analisa churn, yakni RandomForestClassification. Model Random Forest dipilih karena mampu menangkap pola non-linear dalam perilaku pelanggan sekaligus memberikan interpretasi faktor utama penyebab churn.
   *	Dengan menggunakan 2000 data pelanggan yang telah dipilih dengan churn sebanyak 879, model bisa memprediksi 70% pelanggan yang Churn. 
 
-<p>
-  <img src=  >
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20094650.png" width=700 height=600>
 </p>
 
 **2.Feature Importance**
   *	Menurut model ini, Churn paling dipengaruhi oleh faktor terkait Contract, Total Revenue, Total Charges, dan Total long distance charges. Faktor-faktor ini menunjukkan bahwa churn lebih dipicu oleh rendahnya switching cost dan persepsi value, bukan oleh masalah demografis pelanggan, ataupun yang lain.
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20200126.png" width=600 height=500>
 </p>
 
 **3.Analisa Hasil Prediksi**
@@ -126,8 +123,9 @@ StarConnect dapat melakukan improve pada bagian memperbaiki Contact Person untuk
     * Dari 412 pelanggan yang baru bergabung, model memprediksi 315 pelanggan akan churn. Terutama mereka yang tenure lebih dari 24 bulan (sebanyak 26%) dan menggunakan kartu kredit sebagai metode pembayaran (sebanyak 49%).
     * Sama seperti sebelumnya Kontrak jenis month-to-month juga mendominasi pelanggan yang churn. Hal ini semakin memperkuat rekomendasi untuk menyediakan metode pembayaran yang lebih fleksibel.
 
-<p>
-  <img src=>
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-22%20100520.png" width=600 height=500>
+   <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-22%20105201.png" width=600 height=500>
 </p>
 
 
