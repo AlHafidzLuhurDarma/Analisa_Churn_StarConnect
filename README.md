@@ -105,7 +105,8 @@ StarConnect dapat melakukan improve pada bagian memperbaiki Contact Person untuk
 ### Prediksi Pelanggan Churn
 **1.Laporan model ML**
   *	Saya telah mengevaluasi model ML yang cocok dengan Analisa churn, yakni RandomForestClassification. Model Random Forest dipilih karena mampu menangkap pola non-linear dalam perilaku pelanggan sekaligus memberikan interpretasi faktor utama penyebab churn.
-  *	Dengan menggunakan 2000 data pelanggan yang telah dipilih dengan churn sebanyak 879, model bisa memprediksi 70% pelanggan yang Churn. 
+  *	Dataset awal terdiri dari sekitar 6.400 pelanggan. Untuk pengembangan model, kami menggunakan subset ±2.000 pelanggan yang memiliki data lengkap dan konsisten, khususnya pada variabel kunci seperti kontrak, biaya, dan histori layanan.
+Pendekatan ini dilakukan untuk mengurangi noise dan bias, serta memastikan evaluasi model yang lebih stabil mengingat keterbatasan data historis
 
 <p align="center">
   <img src="https://github.com/AlHafidzLuhurDarma/Analisa_Churn_StarConnect/blob/main/visualization/Screenshot%202025-12-20%20094650.png" width=700 height=600>
